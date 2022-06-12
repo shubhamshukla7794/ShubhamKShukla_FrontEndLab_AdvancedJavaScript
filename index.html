@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="text" class="search-box" placeholder="Enter a city">
+        </header>
+        <main>
+            <section id="location">
+                <div id="city">Mumbai</div>
+                <div id="date">Sunday, June 12, 2022</div>
+            </section>
+            <section id="current">
+                <div id="temperature">30<span>°C</span></div>
+                <div id="weather"><svg id="icon"><use xlink:href="svg/09n.svg#09n" /></svg> Rain</div>
+                <!-- <div id="weather"><object id="icon" data="svg/09n.svg" type="image/svg+xml"></object> Rain</div> -->
+                <div id="tempLowHigh">18°C / 22°C</div>
+            </section>
+        </main>
+    </div>
+    <script src="js/weatherScript.js"></script>
+</body>
+</html>

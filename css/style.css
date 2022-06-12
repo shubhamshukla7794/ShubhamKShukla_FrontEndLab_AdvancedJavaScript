@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../images/bg.jpg');
+    background-position: top center;
+}
+
+.container {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+    /* text-align: center; */
+    
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 15px 0 15px 0;
+    border-bottom: 3px solid orange;
+    width: 100%;
+    padding: 10px 15px;
+    max-width: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+main{
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 50px;
+}
+
+
+#location #city {
+    color: #F2F2F2;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+#location #date {
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#current #temperature {
+    color: #F2F2F2;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 7px rgba(0,0,0,0.6);
+}
+
+#current #temperature span {
+    font-weight: 600;
+}
+
+
+#current #weather {
+    color: #F2F2F2;
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#current #tempLowHigh {
+    color: #F2F2F2;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    vertical-align: middle;
+}
